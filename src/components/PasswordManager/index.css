@@ -1,0 +1,195 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  background-size: cover;
+  padding: 30px;
+}
+.app-logo {
+  width: 15%;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.password-manager-lg-img {
+  width: 35%;
+  display: none;
+}
+.password-manager-sm-img {
+  width: 80%;
+  display: block;
+  order: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .password-manager-lg-img {
+    display: block;
+    order: 2;
+  }
+  .password-manager-sm-img {
+    display: none;
+  }
+}
+
+.top-card-container {
+  background-color: #5763a5;
+  padding: 30px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.add-password-container {
+  background-color: #454f84;
+  padding: 30px;
+  border-radius: 30px;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .add-password-container {
+    width: 40vw;
+  }
+}
+
+.input-container {
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 60px;
+  border-radius: 10px;
+}
+.input-icon {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  height: 60px;
+  width: 30vw;
+}
+.input-icon-container {
+  border-right: 1px solid #454f84;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-text-container {
+  padding-left: 10px;
+}
+
+.add-btn {
+  height: 30px;
+  width: 60px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0b69ff;
+  color: #f8fafc;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bottom-card-container {
+  background-color: #5763a5;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.show-passwords-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-container {
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 30px;
+  border-radius: 10px;
+}
+.your-passwords-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox-label {
+  color: #f8fafc;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.checkbox-input {
+  height: 20px;
+  width: 20px;
+}
+
+.no-passwords-img {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .no-passwords-img {
+    width: 35%;
+  }
+}
+
+.passwords-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.no-of-passwords {
+  height: 30px;
+  width: 50px;
+  border: 1px solid #f8fafc;
+  color: #f59e0b;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+}
+
+.your-passwords {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+/* 
+Hex: #9ba9eb
+Hex: #c3caea
+Hex: #5763a5
+Hex: #f8fafc
+Hex: #454f84
+Hex: #0b69ff
+Hex: #94a3b8
+Hex: #b6c3ca
+Hex: #7683cb
+Hex: #f59e0b
+Hex: #10b981
+Hex: #f97316
+Hex: #14b8a6
+Hex: #b91c1c
+Hex: #ffffff
+Hex: #0ea5e9
+Hex: #64748b
+ */
